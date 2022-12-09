@@ -18,7 +18,10 @@ function App() {
     };
 
     return (
-        <div className="h-50 w-screen bg-slate-100 text-stone-900 flex flex-row gap-10 justify-center py-2">
+        <div className="h-50 w-screen bg-slate-100 text-stone-900 flex flex-col px-10 gap-10 justify-center py-2
+        md:flex-row
+        lg:flex-row
+        xl:flex-row">
             <div className="text-center">
                 <span className="text-xl text-blue-700 font-bold">
                     Easy URL Shortener
